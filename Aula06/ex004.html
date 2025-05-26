@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela inicial</title>
+
+</head>
+<style>
+    body{
+        background-color: darkgreen;
+        color: chocolate;
+        font: normal 25pt Times;
+    }
+    h1{
+        color: black;
+    }
+</style>
+<body>
+    <script>
+        var nome = window.prompt('Digite seu nome');
+        document.writeln('<h2>Seu nome tem '+ nome.length +' letras</h2>');
+        document.writeln('' + nome.toUpperCase());
+        document.writeln('' + nome.toLowerCase());
+    </script>
+</body>
+</html>
